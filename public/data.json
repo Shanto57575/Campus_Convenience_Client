@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "collegeName": "Stanford",
+      "collegeImage": "https://media.istockphoto.com/id/1501778803/photo/a-view-of-cambridge-university.jpg?s=612x612&w=0&k=20&c=ClOMzjPDruFLE7XB0vnFFPKNHz4qm7I2gJ6KGQRm79U=",
+      "admissionDates": ["8th Aug", "1st Sept"],
+      "collegeRating":5,
+      "events": ["Annual Career Fair", "Global Cultural Fest", "Innovation Summit"],
+      "totalResearch":7318,
+      "researchHistory": "Alan Turing's Pioneering Concept of Machine Intelligence",
+      "sports": ["Football", "Basketball", "Tennis"]
+    },
+    {
+      "id": 2,
+      "collegeName": "Caltech",
+      "collegeImage": "https://media.istockphoto.com/id/1391228474/photo/students-walking-in-harvard-yard-harvard-university-cambridge-massachusetts.jpg?s=612x612&w=0&k=20&c=VbaCf4x4OdomLocMNQCQi9GusOETeW9Dj1sngAI75v0=",
+      "admissionDates": ["15th sept", "1st Oct"],
+      "collegeRating":4.5,
+      "events": ["Service Day", "Sci-Tech Expo Expo", "Arts & Music Showcase"],
+      "totalResearch":6823,
+      "researchHistory": "Newell & Simon's Logic Theorist - AI's Theorem Proofs",
+      "sports": ["Soccer", "Swimming", "Volleyball"]
+    },
+    {
+      "id": 3,
+      "collegeName": "Cambridge",
+      "collegeImage": "https://media.istockphoto.com/id/518586522/photo/queenss-university-of-belfast.jpg?s=612x612&w=0&k=20&c=CSQBGAKD100Wr1NR1EJzC1JpNsaJ1hBUZKtT1E3aEw4=",
+      "admissionDates": ["20th Aug", "10th Sept"],
+      "collegeRating":5,
+      "events": ["Wellness Week", "Leadership Conference", "Research Symposium"],
+      "totalResearch":3937,
+      "researchHistory": "Setbacks and Challenges Faced by Early AI Research",
+      "sports": ["Cricket", "Badminton", "Athletics"]
+    },
+    {
+      "id": 4,
+      "collegeName": "ETH Zurich",
+      "collegeImage": "https://media.istockphoto.com/id/1074334476/photo/sather-gate.jpg?s=612x612&w=0&k=20&c=ES4WqkPdKa78GLAzWnVhGbvMC6TIw9x8pTs1Hua7VkA=",
+      "admissionDates": ["1st sept", "30th sept"],
+      "collegeRating":4.8,
+      "events": ["Innovation Expo", "Diversity Week", "Sustainability Symposium"],
+      "totalResearch":5310,
+      "researchHistory": "Investigating the Effects of Climate Change on Coastal Ecosystems",
+      "sports": ["Baseball", "Rugby", "Table Tennis"]
+    },
+    {
+      "id": 5,
+      "collegeName": "Harvard",
+      "collegeImage": "https://media.istockphoto.com/id/531783482/photo/the-university-of-greenwich.jpg?s=612x612&w=0&k=20&c=eTB3BFKmkF1EWCvHkw4YmEXguOOVn1Wu3rLP4UEVjqg=",
+      "admissionDates": ["10th Aug", "31st Aug"],
+      "collegeRating":4.9,
+      "events": ["Global Volunteers", "Startup Bootcamp", "Alumni Reunion"],
+      "totalResearch":4719,
+      "researchHistory": "Exploring Novel Therapies for Neurodegenerative Diseases",
+      "sports": ["Hockey", "Golf", "Chess"]
+    },
+    {
+      "id": 6,
+      "collegeName": "McGill",
+      "collegeImage": "https://media.istockphoto.com/id/157334765/photo/hart-house-toronto.jpg?s=612x612&w=0&k=20&c=X7q4hUXulw2KKi2JM0gpA8LqaNt_PtkO3dK61i3lvSc=",
+      "admissionDates": ["5th sept", "25th Sept"],
+      "collegeRating":4.3,
+      "events": ["Igniting Innovations", "Wellness Retreat", "AI Summit"],
+      "totalResearch":4314,
+      "researchHistory": "Analyzing the Impact of Artificial Intelligence on the Job Market",
+      "sports": ["Basketball", "Track and Field", "Fencing"]
+    }
+] 

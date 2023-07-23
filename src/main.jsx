@@ -9,6 +9,7 @@ import Register from "./Components/Authentication/Register";
 import College from "./Components/College/College";
 import MyCollege from "./Components/MyCollege/MyCollege";
 import Admission from "./Components/Admission/Admission";
+import CollegeDetails from "./Components/College/CollegeDetails";
 const router = createBrowserRouter([
 	{
 		path: "/",
@@ -21,6 +22,16 @@ const router = createBrowserRouter([
 			{
 				path: "/college",
 				element: <College></College>,
+			},
+			{
+				path: "/college/:id",
+				element: <CollegeDetails></CollegeDetails>,
+				loader: ({ params }) =>
+					fetch("../public/data.json")
+						.then((res) => res.json())
+						.then((data) =>
+							data.find((college) => college.id === parseInt(params.id))
+						),
 			},
 			{
 				path: "/mycollege",

@@ -1,68 +1,138 @@
 [
-    {
-      "id": 1,
-      "collegeName": "Stanford",
-      "collegeImage": "https://media.istockphoto.com/id/1501778803/photo/a-view-of-cambridge-university.jpg?s=612x612&w=0&k=20&c=ClOMzjPDruFLE7XB0vnFFPKNHz4qm7I2gJ6KGQRm79U=",
-      "admissionDates": ["8th Aug", "1st Sept"],
-      "collegeRating":5,
-      "events": ["Annual Career Fair", "Global Cultural Fest", "Innovation Summit"],
-      "totalResearch":7318,
-      "researchHistory": "Alan Turing's Pioneering Concept of Machine Intelligence",
-      "sports": ["Football", "Basketball", "Tennis"]
-    },
-    {
-      "id": 2,
-      "collegeName": "Caltech",
-      "collegeImage": "https://media.istockphoto.com/id/1391228474/photo/students-walking-in-harvard-yard-harvard-university-cambridge-massachusetts.jpg?s=612x612&w=0&k=20&c=VbaCf4x4OdomLocMNQCQi9GusOETeW9Dj1sngAI75v0=",
-      "admissionDates": ["15th sept", "1st Oct"],
-      "collegeRating":4.5,
-      "events": ["Service Day", "Sci-Tech Expo Expo", "Arts & Music Showcase"],
-      "totalResearch":6823,
-      "researchHistory": "Newell & Simon's Logic Theorist - AI's Theorem Proofs",
-      "sports": ["Soccer", "Swimming", "Volleyball"]
-    },
-    {
-      "id": 3,
-      "collegeName": "Cambridge",
-      "collegeImage": "https://media.istockphoto.com/id/518586522/photo/queenss-university-of-belfast.jpg?s=612x612&w=0&k=20&c=CSQBGAKD100Wr1NR1EJzC1JpNsaJ1hBUZKtT1E3aEw4=",
-      "admissionDates": ["20th Aug", "10th Sept"],
-      "collegeRating":5,
-      "events": ["Wellness Week", "Leadership Conference", "Research Symposium"],
-      "totalResearch":3937,
-      "researchHistory": "Setbacks and Challenges Faced by Early AI Research",
-      "sports": ["Cricket", "Badminton", "Athletics"]
-    },
-    {
-      "id": 4,
-      "collegeName": "ETH Zurich",
-      "collegeImage": "https://media.istockphoto.com/id/1074334476/photo/sather-gate.jpg?s=612x612&w=0&k=20&c=ES4WqkPdKa78GLAzWnVhGbvMC6TIw9x8pTs1Hua7VkA=",
-      "admissionDates": ["1st sept", "30th sept"],
-      "collegeRating":4.8,
-      "events": ["Innovation Expo", "Diversity Week", "Sustainability Symposium"],
-      "totalResearch":5310,
-      "researchHistory": "Investigating the Effects of Climate Change on Coastal Ecosystems",
-      "sports": ["Baseball", "Rugby", "Table Tennis"]
-    },
-    {
-      "id": 5,
-      "collegeName": "Harvard",
-      "collegeImage": "https://media.istockphoto.com/id/531783482/photo/the-university-of-greenwich.jpg?s=612x612&w=0&k=20&c=eTB3BFKmkF1EWCvHkw4YmEXguOOVn1Wu3rLP4UEVjqg=",
-      "admissionDates": ["10th Aug", "31st Aug"],
-      "collegeRating":4.9,
-      "events": ["Global Volunteers", "Startup Bootcamp", "Alumni Reunion"],
-      "totalResearch":4719,
-      "researchHistory": "Exploring Novel Therapies for Neurodegenerative Diseases",
-      "sports": ["Hockey", "Golf", "Chess"]
-    },
-    {
-      "id": 6,
-      "collegeName": "McGill",
-      "collegeImage": "https://media.istockphoto.com/id/157334765/photo/hart-house-toronto.jpg?s=612x612&w=0&k=20&c=X7q4hUXulw2KKi2JM0gpA8LqaNt_PtkO3dK61i3lvSc=",
-      "admissionDates": ["5th sept", "25th Sept"],
-      "collegeRating":4.3,
-      "events": ["Igniting Innovations", "Wellness Retreat", "AI Summit"],
-      "totalResearch":4314,
-      "researchHistory": "Analyzing the Impact of Artificial Intelligence on the Job Market",
-      "sports": ["Basketball", "Track and Field", "Fencing"]
-    }
-] 
+	{
+		"id": 1,
+		"collegeName": "Stanford",
+		"collegeHistory": "Located in California, Stanford University is a world-renowned private research institution established in 1885. It is known for its academic excellence, innovative research, and vibrant campus life. With a focus on interdisciplinary studies, Stanford offers a diverse range of programs in engineering, humanities, sciences, and business. The university boasts influential alumni, groundbreaking discoveries, and a strong entrepreneurial culture. Its commitment to fostering intellectual curiosity and social responsibility has positioned it as a global leader in higher education",
+		"collegeImage": "https://media.istockphoto.com/id/1501778803/photo/a-view-of-cambridge-university.jpg?s=612x612&w=0&k=20&c=ClOMzjPDruFLE7XB0vnFFPKNHz4qm7I2gJ6KGQRm79U=",
+		"admissionDates": ["8th Aug", "1st Sept"],
+		"collegeRating": 5,
+		"events": [
+			"Annual Career Fair",
+			"Global Cultural Fest",
+			"Innovation Summit"
+		],
+		"totalResearch": 7318,
+		"researchHistory": "Alan Turing's Pioneering Concept of Machine Intelligence",
+		"sports": ["Football", "Basketball", "Tennis"],
+		"eventDetails": [
+			"The Annual Career Fair at Stanford University is a highly anticipated event that connects students with top-notch employers across various industries. Featuring renowned companies and organizations, the fair offers students valuable networking opportunities, internships, and job prospects. It serves as a platform for students to showcase their skills and interests while gaining insights into potential career paths.",
+			"Stanford's Global Cultural Fest is a celebration of diversity and inclusivity, embracing the university's vibrant international community. This cultural extravaganza showcases traditions, art, music, and cuisine from around the world. It fosters cross-cultural understanding and promotes unity among students from diverse backgrounds. The festival encourages dialogue and appreciation for the richness of global cultures within the Stanford community.",
+			"The Innovation Summit at Stanford University is an annual gathering that brings together innovators, entrepreneurs, and industry leaders. This platform serves as a catalyst for groundbreaking ideas, technological advancements, and transformative ventures. Featuring keynote speakers, panel discussions, and workshops, the summit sparks creativity and fosters collaboration between academia and industry, driving progress and solutions to global challenges."
+		],
+		"sportsDetails": [
+			"Stanford's football team, known as the Stanford Cardinal, exhibits exceptional athleticism and sportsmanship in the highly competitive collegiate football scene. With a rich history and a strong fan base, football games at Stanford draw immense enthusiasm from the campus community. The team's dedication and strategic gameplay have earned them recognition as a formidable force in collegiate football.",
+			"Stanford's basketball team competes at the highest level in collegiate athletics. The Stanford Cardinal basketball players showcase exceptional skill, teamwork, and dedication on the court. Stanford basketball games are exhilarating events, attracting fans from all corners of the campus. The team's commitment to excellence and thrilling performances make basketball an integral part of Stanford's sports culture.",
+			"Stanford's tennis program encompasses both men's and women's teams, each demonstrating unmatched talent and commitment. The university's tennis players participate in intercollegiate tournaments, representing Stanford with exceptional sportsmanship and passion for the game. Their dedication to honing their skills and competing at the highest level makes tennis an exciting and rewarding part of Stanford's athletic legacy."
+		]
+	},
+	{
+		"id": 2,
+		"collegeName": "Caltech",
+		"collegeHistory": "Caltech University, founded in 1891, is a prestigious private research institution in Pasadena, California. Focused on science and engineering, it consistently ranks among the world's top universities. With a mission to advance knowledge and innovation, Caltech fosters a close-knit community of brilliant faculty and students. Its pioneering research covers astronomy, physics, biology, computer science, and more. Students benefit from small class sizes and diverse extracurricular opportunities. Caltech's graduates become influential leaders and contributors to various industries, leaving a lasting impact on society. As a beacon of excellence, Caltech continues to shape the future through its cutting-edge research and education",
+		"collegeImage": "https://media.istockphoto.com/id/1391228474/photo/students-walking-in-harvard-yard-harvard-university-cambridge-massachusetts.jpg?s=612x612&w=0&k=20&c=VbaCf4x4OdomLocMNQCQi9GusOETeW9Dj1sngAI75v0=",
+		"admissionDates": ["15th sept", "1st Oct"],
+		"collegeRating": 4.5,
+		"events": ["Service Day", "Sci-Tech Expo Expo", "Arts & Music Showcase"],
+		"totalResearch": 6823,
+		"researchHistory": "Newell & Simon's Logic Theorist - AI's Theorem Proofs",
+		"sports": ["Soccer", "Swimming", "Volleyball"],
+		"eventDetails": [
+			"Join our community in making a difference through volunteering and service projects, fostering positive change and impacting lives. This annual event brings together students, faculty, and staff to collaborate on meaningful initiatives that address social and environmental challenges, creating a lasting impact in the world.",
+			"Experience the marvels of science and technology at our interactive expo, featuring innovative exhibits, workshops, and talks by experts. Immerse yourself in cutting-edge research, robotics, AI, and advancements that shape our future. This dynamic event aims to inspire curiosity, spark interest in STEM fields, and showcase breakthroughs in various scientific disciplines.",
+			"Immerse yourself in creativity as our talented artists and musicians captivate your senses with breathtaking performances and exhibits. From classical melodies to contemporary masterpieces, this showcase celebrates the diverse expressions of artistic talent within our vibrant campus community. Get ready to be moved, inspired, and enchanted by the power of visual arts, music, dance, and theatrical performances."
+		],
+		"sportsDetails": [
+			"Embrace the thrill of the world's most beloved sport on our state-of-the-art fields. Compete against talented opponents, develop tactical skills, and build lasting camaraderie with teammates. Our experienced coaches foster a passion for the game, helping players reach their full potential and create unforgettable memories on the pitch.",
+			"Dive into a world of aquatic prowess in our modern swimming facilities. From beginners to seasoned swimmers, our programs cater to all levels. Improve stroke techniques, build endurance, and relish the freedom of gliding through the water. Whether for leisure or competition, our swimming experience is all about fostering a love for this invigorating sport.",
+			"Spike, serve, and block your way to victory on our top-notch volleyball courts. Join our competitive teams or recreational leagues to experience the adrenaline rush of intense matches. Volleyball cultivates teamwork, communication, and sportsmanship. Whether you're a seasoned player or a novice, our inclusive environment ensures everyone can enjoy the excitement of this dynamic sport."
+		]
+	},
+	{
+		"id": 3,
+		"collegeName": "Cambridge",
+		"collegeHistory": "One of the oldest and most prestigious universities in the world, the University of Cambridge, founded in 1209, has a rich history of academic excellence. Situated in the United Kingdom, Cambridge offers a wide array of courses across arts, sciences, and humanities. Renowned for its collegiate system, Cambridge provides a supportive and stimulating environment for students to excel in their studies and research. The university's distinguished faculty, world-class libraries, and historic architecture contribute to its unparalleled academic legacy",
+		"collegeImage": "https://media.istockphoto.com/id/518586522/photo/queenss-university-of-belfast.jpg?s=612x612&w=0&k=20&c=CSQBGAKD100Wr1NR1EJzC1JpNsaJ1hBUZKtT1E3aEw4=",
+		"admissionDates": ["20th Aug", "10th Sept"],
+		"collegeRating": 5,
+		"events": ["Wellness Week", "Leadership Conference", "Research Symposium"],
+		"totalResearch": 3937,
+		"researchHistory": "Setbacks and Challenges Faced by Early AI Research",
+		"sports": ["Cricket", "Badminton", "Athletics"],
+		"eventDetails": [
+			"Join our community in making a difference through volunteering and service projects, fostering positive change and impacting lives. This annual event brings together students, faculty, and staff to collaborate on meaningful initiatives that address social and environmental challenges, creating a lasting impact in the world.",
+			"Experience the marvels of science and technology at our interactive expo, featuring innovative exhibits, workshops, and talks by experts. Immerse yourself in cutting-edge research, robotics, AI, and advancements that shape our future. This dynamic event aims to inspire curiosity, spark interest in STEM fields, and showcase breakthroughs in various scientific disciplines.",
+			"Immerse yourself in creativity as our talented artists and musicians captivate your senses with breathtaking performances and exhibits. From classical melodies to contemporary masterpieces, this showcase celebrates the diverse expressions of artistic talent within our vibrant campus community. Get ready to be moved, inspired, and enchanted by the power of visual arts, music, dance, and theatrical performances."
+		],
+		"sportsDetails": [
+			"Embrace the thrill of the world's most beloved sport on our state-of-the-art fields. Compete against talented opponents, develop tactical skills, and build lasting camaraderie with teammates. Our experienced coaches foster a passion for the game, helping players reach their full potential and create unforgettable memories on the pitch.",
+			"Dive into a world of aquatic prowess in our modern swimming facilities. From beginners to seasoned swimmers, our programs cater to all levels. Improve stroke techniques, build endurance, and relish the freedom of gliding through the water. Whether for leisure or competition, our swimming experience is all about fostering a love for this invigorating sport.",
+			"Spike, serve, and block your way to victory on our top-notch volleyball courts. Join our competitive teams or recreational leagues to experience the adrenaline rush of intense matches. Volleyball cultivates teamwork, communication, and sportsmanship. Whether you're a seasoned player or a novice, our inclusive environment ensures everyone can enjoy the excitement of this dynamic sport."
+		]
+	},
+	{
+		"id": 4,
+		"collegeName": "ETH Zurich",
+		"collegeHistory": "As a leading technical university in Switzerland, ETH Zurich is known for its cutting-edge research and innovation in science, engineering, and technology. Founded in 1855, ETH Zurich has a strong international reputation for academic excellence and research output. The university fosters an interdisciplinary approach to address complex global challenges. With state-of-the-art facilities and a diverse student body, ETH Zurich remains at the forefront of scientific advancements and is highly regarded for its contributions to various fields",
+		"collegeImage": "https://media.istockphoto.com/id/1074334476/photo/sather-gate.jpg?s=612x612&w=0&k=20&c=ES4WqkPdKa78GLAzWnVhGbvMC6TIw9x8pTs1Hua7VkA=",
+		"admissionDates": ["1st sept", "30th sept"],
+		"collegeRating": 4.8,
+		"events": ["Innovation Expo", "Diversity Week", "Sustainability Symposium"],
+		"totalResearch": 5310,
+		"researchHistory": "Investigating the Effects of Climate Change on Coastal Ecosystems",
+		"sports": ["Baseball", "Rugby", "Table Tennis"],
+		"eventDetails": [
+			"Join our community in making a difference through volunteering and service projects, fostering positive change and impacting lives. This annual event brings together students, faculty, and staff to collaborate on meaningful initiatives that address social and environmental challenges, creating a lasting impact in the world.",
+			"Experience the marvels of science and technology at our interactive expo, featuring innovative exhibits, workshops, and talks by experts. Immerse yourself in cutting-edge research, robotics, AI, and advancements that shape our future. This dynamic event aims to inspire curiosity, spark interest in STEM fields, and showcase breakthroughs in various scientific disciplines.",
+			"Immerse yourself in creativity as our talented artists and musicians captivate your senses with breathtaking performances and exhibits. From classical melodies to contemporary masterpieces, this showcase celebrates the diverse expressions of artistic talent within our vibrant campus community. Get ready to be moved, inspired, and enchanted by the power of visual arts, music, dance, and theatrical performances."
+		],
+		"sportsDetails": [
+			"Embrace the thrill of the world's most beloved sport on our state-of-the-art fields. Compete against talented opponents, develop tactical skills, and build lasting camaraderie with teammates. Our experienced coaches foster a passion for the game, helping players reach their full potential and create unforgettable memories on the pitch.",
+			"Dive into a world of aquatic prowess in our modern swimming facilities. From beginners to seasoned swimmers, our programs cater to all levels. Improve stroke techniques, build endurance, and relish the freedom of gliding through the water. Whether for leisure or competition, our swimming experience is all about fostering a love for this invigorating sport.",
+			"Spike, serve, and block your way to victory on our top-notch volleyball courts. Join our competitive teams or recreational leagues to experience the adrenaline rush of intense matches. Volleyball cultivates teamwork, communication, and sportsmanship. Whether you're a seasoned player or a novice, our inclusive environment ensures everyone can enjoy the excitement of this dynamic sport."
+		]
+	},
+	{
+		"id": 5,
+		"collegeName": "Harvard",
+		"collegeHistory": "Established in 1636, Harvard University is one of the oldest and most prestigious Ivy League institutions in the United States. Situated in Massachusetts, Harvard is renowned for its academic rigor, intellectual diversity, and commitment to public service. The university offers a wide range of undergraduate and graduate programs across numerous disciplines. Its esteemed faculty includes Nobel laureates and Pulitzer Prize winners. Harvard's historic campus, influential alumni network, and profound contributions to research and scholarship have solidified its position as a symbol of academic excellence worldwide",
+		"collegeImage": "https://media.istockphoto.com/id/531783482/photo/the-university-of-greenwich.jpg?s=612x612&w=0&k=20&c=eTB3BFKmkF1EWCvHkw4YmEXguOOVn1Wu3rLP4UEVjqg=",
+		"admissionDates": ["10th Aug", "31st Aug"],
+		"collegeRating": 4.9,
+		"events": ["Global Volunteers", "Startup Bootcamp", "Alumni Reunion"],
+		"totalResearch": 4719,
+		"researchHistory": "Exploring Novel Therapies for Neurodegenerative Diseases",
+		"sports": ["Hockey", "Golf", "Chess"],
+		"eventDetails": [
+			"Join our community in making a difference through volunteering and service projects, fostering positive change and impacting lives. This annual event brings together students, faculty, and staff to collaborate on meaningful initiatives that address social and environmental challenges, creating a lasting impact in the world.",
+			"Experience the marvels of science and technology at our interactive expo, featuring innovative exhibits, workshops, and talks by experts. Immerse yourself in cutting-edge research, robotics, AI, and advancements that shape our future. This dynamic event aims to inspire curiosity, spark interest in STEM fields, and showcase breakthroughs in various scientific disciplines.",
+			"Immerse yourself in creativity as our talented artists and musicians captivate your senses with breathtaking performances and exhibits. From classical melodies to contemporary masterpieces, this showcase celebrates the diverse expressions of artistic talent within our vibrant campus community. Get ready to be moved, inspired, and enchanted by the power of visual arts, music, dance, and theatrical performances."
+		],
+		"sportsDetails": [
+			"Embrace the thrill of the world's most beloved sport on our state-of-the-art fields. Compete against talented opponents, develop tactical skills, and build lasting camaraderie with teammates. Our experienced coaches foster a passion for the game, helping players reach their full potential and create unforgettable memories on the pitch.",
+			"Dive into a world of aquatic prowess in our modern swimming facilities. From beginners to seasoned swimmers, our programs cater to all levels. Improve stroke techniques, build endurance, and relish the freedom of gliding through the water. Whether for leisure or competition, our swimming experience is all about fostering a love for this invigorating sport.",
+			"Spike, serve, and block your way to victory on our top-notch volleyball courts. Join our competitive teams or recreational leagues to experience the adrenaline rush of intense matches. Volleyball cultivates teamwork, communication, and sportsmanship. Whether you're a seasoned player or a novice, our inclusive environment ensures everyone can enjoy the excitement of this dynamic sport."
+		]
+	},
+	{
+		"id": 6,
+		"collegeName": "McGill",
+		"collegeHistory": "Located in Montreal, Canada, McGill University is a distinguished public research institution founded in 1821. McGill is renowned for its multicultural and vibrant campus life. It offers a broad spectrum of programs in arts, sciences, engineering, and medicine. As one of Canada's leading universities, McGill boasts a rich academic tradition and a commitment to fostering innovation and creativity. With its strong emphasis on research and global outreach, McGill continues to shape the future through its contributions to academia and society",
+		"collegeImage": "https://media.istockphoto.com/id/157334765/photo/hart-house-toronto.jpg?s=612x612&w=0&k=20&c=X7q4hUXulw2KKi2JM0gpA8LqaNt_PtkO3dK61i3lvSc=",
+		"admissionDates": ["5th sept", "25th Sept"],
+		"collegeRating": 4.3,
+		"events": ["Igniting Innovations", "Wellness Retreat", "AI Summit"],
+		"totalResearch": 4314,
+		"researchHistory": "Analyzing the Impact of Artificial Intelligence on the Job Market",
+		"sports": ["Basketball", "Track and Field", "Fencing"],
+		"eventDetails": [
+			"Join our community in making a difference through volunteering and service projects, fostering positive change and impacting lives. This annual event brings together students, faculty, and staff to collaborate on meaningful initiatives that address social and environmental challenges, creating a lasting impact in the world.",
+			"Experience the marvels of science and technology at our interactive expo, featuring innovative exhibits, workshops, and talks by experts. Immerse yourself in cutting-edge research, robotics, AI, and advancements that shape our future. This dynamic event aims to inspire curiosity, spark interest in STEM fields, and showcase breakthroughs in various scientific disciplines.",
+			"Immerse yourself in creativity as our talented artists and musicians captivate your senses with breathtaking performances and exhibits. From classical melodies to contemporary masterpieces, this showcase celebrates the diverse expressions of artistic talent within our vibrant campus community. Get ready to be moved, inspired, and enchanted by the power of visual arts, music, dance, and theatrical performances."
+		],
+		"sportsDetails": [
+			"Embrace the thrill of the world's most beloved sport on our state-of-the-art fields. Compete against talented opponents, develop tactical skills, and build lasting camaraderie with teammates. Our experienced coaches foster a passion for the game, helping players reach their full potential and create unforgettable memories on the pitch.",
+			"Dive into a world of aquatic prowess in our modern swimming facilities. From beginners to seasoned swimmers, our programs cater to all levels. Improve stroke techniques, build endurance, and relish the freedom of gliding through the water. Whether for leisure or competition, our swimming experience is all about fostering a love for this invigorating sport.",
+			"Spike, serve, and block your way to victory on our top-notch volleyball courts. Join our competitive teams or recreational leagues to experience the adrenaline rush of intense matches. Volleyball cultivates teamwork, communication, and sportsmanship. Whether you're a seasoned player or a novice, our inclusive environment ensures everyone can enjoy the excitement of this dynamic sport."
+		]
+	}
+]

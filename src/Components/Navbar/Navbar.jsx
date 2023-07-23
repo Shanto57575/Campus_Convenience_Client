@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const NavItems = (
-		<div className="flex items-center gap-7 text-lg font-bold">
+		<div className="text-cyan-600 flex flex-col lg:flex-row items-center gap-7 text-lg font-bold">
 			<Link to="/" className="flex items-center gap-2 cursor-pointer">
 				<FontAwesomeIcon icon={faHouse} />
 				<span>Home</span>
@@ -27,6 +27,7 @@ const Navbar = () => {
 			</Link>
 		</div>
 	);
+
 	return (
 		<div className="navbar bg-base-100">
 			<div className="navbar-start">

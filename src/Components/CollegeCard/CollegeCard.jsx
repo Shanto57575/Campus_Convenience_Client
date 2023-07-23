@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "../../../public/data.json";
 const CollegeCard = () => {
 	return (
@@ -59,12 +60,14 @@ const CollegeCard = () => {
 									</p>
 								</div>
 								<div className="card-actions">
-									<button
-										type="button"
-										className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-2 font-medium rounded-lg text-lg px-7 py-2.5 text-center mr-2 mb-2"
-									>
-										Details
-									</button>
+									<Link to={`/college/${item.id}`}>
+										<button
+											type="button"
+											className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-2 font-medium rounded-lg px-4 py-2.5 text-center mr-2 mb-2"
+										>
+											Details
+										</button>
+									</Link>
 								</div>
 							</div>
 						</div>

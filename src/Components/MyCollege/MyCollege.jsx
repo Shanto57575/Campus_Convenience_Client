@@ -5,7 +5,7 @@ const MyCollege = () => {
 	const [reviewData, setReviewData] = useState({});
 
 	useEffect(() => {
-		fetch("http://localhost:5000/mycollege")
+		fetch("https://campus-convenience-server.vercel.app/mycollege")
 			.then((res) => res.json())
 			.then((data) => setAllData(data));
 	}, []);
@@ -19,7 +19,7 @@ const MyCollege = () => {
 			university: entry.university,
 		};
 
-		fetch("http://localhost:5000/reviews", {
+		fetch("https://campus-convenience-server.vercel.app/reviews", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

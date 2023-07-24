@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
-import data from "../../../public/data.json";
+// import data from "../../../public/data.json";
+import { useEffect, useState } from "react";
 const CollegeCard = () => {
+	const [data, setData] = useState([]);
+
+	useEffect(() => {
+		fetch("https://campus-convenience-server.vercel.app/AllData")
+			.then((res) => res.json())
+			.then((data) => setData(data));
+	}, []);
+
 	return (
 		<div className="my-20">
 			<div className="text-3xl font-serif font-bold  text-center my-10 space-y-3">

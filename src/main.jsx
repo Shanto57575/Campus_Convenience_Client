@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 				path: "/college/:id",
 				element: <CollegeDetails></CollegeDetails>,
 				loader: ({ params }) =>
-					fetch("../public/data.json")
+					fetch("https://campus-convenience-server.vercel.app/AllData")
 						.then((res) => res.json())
 						.then((data) =>
 							data.find((college) => college.id === parseInt(params.id))

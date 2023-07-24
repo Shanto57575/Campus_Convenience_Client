@@ -27,7 +27,7 @@ const Admission = () => {
 			university,
 		};
 		console.log(info);
-		fetch("http://localhost:5000/mycollege", {
+		fetch("https://campus-convenience-server.vercel.app/mycollege", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",

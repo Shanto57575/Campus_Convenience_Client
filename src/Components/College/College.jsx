@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import data from "../../../public/data.json";
 import "./College.css";
 import { useEffect, useState } from "react";
 
@@ -19,7 +18,7 @@ const College = () => {
 					Where Excellence Meets Opportunity - Unleash Your Potential Today!
 				</p>
 			</div>
-			<div className="md:mx-10 lg:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 shadow-cyan-900">
+			<div className="md:mx-9 lg:mx-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 shadow-cyan-900">
 				{data.map((item) => (
 					<div key={item.id}>
 						<div className="grad card lg:card-side flex-wrap bg-base-100 shadow-2xl shadow-cyan-950 rounded-none">
@@ -31,9 +30,9 @@ const College = () => {
 									{item.collegeName} university
 								</h2>
 								<p className="text-lg font-bold">
-									Rating:{" "}
-									<span className="badge bg-cyan-500 px-5 py-3">
-										{item.collegeRating}
+									Rating:
+									<span className="bg-cyan-500 px-4 rounded">
+										{item.collegeRating}*
 									</span>
 								</p>
 								<p className="text-lg font-semibold">

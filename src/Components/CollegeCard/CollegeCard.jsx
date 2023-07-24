@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import data from "../../../public/data.json";
 import { useEffect, useState } from "react";
 const CollegeCard = () => {
 	const [data, setData] = useState([]);
@@ -18,14 +17,14 @@ const CollegeCard = () => {
 					Where Excellence Meets Opportunity - Unleash Your Potential Today!
 				</p>
 			</div>
-			<div className="md:mx-12 lg:mx-28 shadow-cyan-900">
+			<div className="md:mx-12 lg:mx-20 shadow-cyan-900">
 				{data.slice(0, 3).map((item) => (
 					<div key={item.id}>
-						<div className="card flex-wrap card-side bg-base-100 mb-10 shadow-2xl shadow-stone-500 rounded-none md:rounded-xl">
+						<div className="card lg:card-side bg-base-100 mb-10 shadow-2xl shadow-stone-500 rounded-none md:rounded-xl">
 							<figure>
 								<img src={item.collegeImage} alt="car!" />
 							</figure>
-							<div className="card-body font-serif p-0 md:p-4">
+							<div className="card-body font-serif p-1 md:p-4">
 								<h2 className="card-title uppercase">
 									{item.collegeName} university
 								</h2>

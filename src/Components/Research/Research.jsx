@@ -1,6 +1,6 @@
 const Research = () => {
 	return (
-		<div className="mx-auto lg:mx-24 mb-20">
+		<div className="mx-auto lg:mx-20 mb-20">
 			<div className="text-3xl font-serif font-bold  text-center my-10 space-y-3">
 				<h1 className="text-cyan-500">Our Students Research</h1>
 				<p className="text-xl font-normal">

@@ -1,6 +1,6 @@
 const Gallery = () => {
 	return (
-		<div className="lg:mx-24">
+		<div className="lg:mx-20">
 			<div className="text-3xl font-serif font-bold  text-center my-10 space-y-3">
 				<h1 className="text-cyan-500">Memorable Moments!</h1>
 				<p className="text-xl font-normal">

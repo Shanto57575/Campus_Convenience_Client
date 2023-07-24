@@ -10,10 +10,13 @@ const Reviews = () => {
 	}, []);
 
 	return (
-		<div className="mx-20">
-			<h1 className="text-cyan-500 font-serif text-center text-3xl mt-20 mb-16 font-bold">
+		<div className="lg:mx-20">
+			<h1 className="text-cyan-500 font-serif text-center text-3xl mt-20 mb-3 font-bold">
 				Students Voices
 			</h1>
+			<p className="font-serif text-center text-2xl mb-10">
+				Empowered students shaping a brighter future
+			</p>
 			<div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center mb-20">
 				{allData.map((data) => (
 					<div className="space-y-4" key={data._id}>

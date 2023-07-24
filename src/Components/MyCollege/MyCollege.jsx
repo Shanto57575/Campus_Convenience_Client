@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 
 const MyCollege = () => {
 	const [allData, setAllData] = useState([]);
@@ -27,13 +28,24 @@ const MyCollege = () => {
 			body: JSON.stringify(dataToSend),
 		})
 			.then((res) => res.json())
-			.then((data) => console.log(data))
+			.then((data) => {
+				console.log(data);
+				if (data.insertedId) {
+					Swal.fire({
+						icon: "success",
+						title: "Successful...",
+						text: "Data added Successfully!",
+					});
+				}
+			})
 			.catch((error) => console.error("Error posting review:", error));
 	};
 
 	return (
 		<div>
-			<h1 className="text-center text-3xl text-cyan-600 my-10">My College</h1>
+			<h1 className="text-center text-3xl text-cyan-600 my-10 font-bold">
+				My College
+			</h1>
 			<div className="lg:mx-20">
 				{allData.map((data) => (
 					<div

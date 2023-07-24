@@ -1,24 +1,49 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Search = () => {
-	const [search, setSearch] = useState("");
-	console.log(search);
 	return (
 		<div className="text-center bg-cyan-800 p-5">
-			<form className="join">
-				<input
-					type="search"
-					onChange={(event) => setSearch(event.target.value)}
-					placeholder="Search"
-					className="relative p-1 md:p-3 w-full lg:w-[650px] rounded-none"
-				/>
-				<button
-					type="button"
-					className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br font-medium text-sm md:p-3 text-center rounded-none"
+			<div className="dropdown">
+				<label
+					tabIndex={0}
+					className="btn rounded-lg m-1 w-60 md:w-full lg:w-[650px] bg-white"
 				>
-					Search college
-				</button>
-			</form>
+					Search
+				</label>
+				<ul
+					tabIndex={0}
+					className="relative p-1 md:p-3 sm:w-96 w-full lg:w-[660px] rounded-lg dropdown-content z-[1] menu shadow bg-base-100"
+				>
+					<li>
+						<Link className="border-b-2 border-black" to={`/college/${1}`}>
+							STANFORD UNIVERSITY
+						</Link>
+					</li>
+					<li>
+						<Link className="border-b-2 border-black" to={`/college/${2}`}>
+							CALTECH UNIVERSITY
+						</Link>
+					</li>
+					<li>
+						<Link className="border-b-2 border-black" to={`/college/${3}`}>
+							CAMBRIDGE UNIVERSITY
+						</Link>
+					</li>
+					<li>
+						<Link className="border-b-2 border-black" to={`/college/${4}`}>
+							ETH ZURICH UNIVERSITY
+						</Link>
+					</li>
+					<li>
+						<Link className="border-b-2 border-black" to={`/college/${5}`}>
+							HARVARD UNIVERSITY
+						</Link>
+					</li>
+					<li>
+						<Link to={`/college/${6}`}>MCGILL UNIVERSITY</Link>
+					</li>
+				</ul>
+			</div>
 		</div>
 	);
 };

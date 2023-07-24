@@ -72,7 +72,7 @@ const Register = () => {
 	};
 
 	return (
-		<div className="font-serif font-extrabold">
+		<div className="font-serif font-extrabold bg-black">
 			<div className="md:flex gap-5">
 				<div className="md:w-1/2">
 					<Lottie
@@ -84,12 +84,14 @@ const Register = () => {
 
 				<div className="md:w-1/2 relative flex flex-col justify-center min-h-screen overflow-hidden my-10">
 					<div className="w-full p-6 m-auto border rounded-md shadow-xl lg:max-w-xl">
-						<h1 className="text-3xl font-serif font-extrabold text-center uppercase">
+						<h1 className="text-white text-3xl font-serif font-extrabold text-center uppercase">
 							Create an account
 						</h1>
 						<form onSubmit={handleRegister} className="mt-6">
 							<div className="mb-2">
-								<label className="block text-sm font-semibold ">Name</label>
+								<label className="text-white block text-sm font-semibold ">
+									Name
+								</label>
 								<input
 									type="text"
 									name="name"
@@ -99,7 +101,9 @@ const Register = () => {
 								/>
 							</div>
 							<div className="mb-2">
-								<label className="block text-sm font-semibold">Email</label>
+								<label className="text-white block text-sm font-semibold">
+									Email
+								</label>
 								<input
 									ref={emailRef}
 									name="email"
@@ -109,7 +113,9 @@ const Register = () => {
 								/>
 							</div>
 							<div className="mb-2">
-								<label className="block text-sm font-semibold ">Password</label>
+								<label className="text-white block text-sm font-semibold ">
+									Password
+								</label>
 								<input
 									name="password"
 									type="password"
@@ -119,7 +125,7 @@ const Register = () => {
 								/>
 							</div>
 							<div className="mb-2">
-								<label className="block text-sm font-semibold ">
+								<label className="text-white block text-sm font-semibold ">
 									Confirm Password
 								</label>
 								<input
@@ -131,7 +137,7 @@ const Register = () => {
 								/>
 							</div>
 							<div className="mb-2">
-								<label className="block text-sm font-semibold ">
+								<label className="text-white block text-sm font-semibold ">
 									Photo Url
 								</label>
 								<input
@@ -143,7 +149,7 @@ const Register = () => {
 								/>
 							</div>
 							<div className="mt-6">
-								<button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-amber-600 rounded-md hover:bg-yellow-500 focus:outline-none focus:bg-blue-400">
+								<button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-cyan-500 rounded-md hover:bg-cyan-600 focus:outline-none focus:bg-blue-400">
 									Sign Up
 								</button>
 							</div>
@@ -151,11 +157,11 @@ const Register = () => {
 						<div className="relative flex items-center justify-center w-full mt-6 border border-t">
 							<div className="absolute px-5 bg-white">Or</div>
 						</div>
-						<p className="mt-8 text-sm font-light text-center">
+						<p className="text-white mt-8 text-sm font-light text-center">
 							Already have an account?{" "}
 							<Link
 								to="/login"
-								className="font-medium text-yellow-500  hover:underline"
+								className="font-medium text-cyan-400  hover:underline"
 							>
 								Please login
 							</Link>

@@ -63,18 +63,20 @@ const Login = () => {
 	};
 
 	return (
-		<div className="md:flex gap-5">
+		<div className="md:flex gap-5 bg-black">
 			<div className="md:w-1/2">
 				<Lottie animationData={login} loop={true} />
 			</div>
 			<div className="md:w-1/2 relative flex flex-col justify-center min-h-screen overflow-hidden">
 				<div className="w-full p-6 m-auto border rounded-md shadow-xl lg:max-w-xl">
-					<h1 className="text-3xl font-semibold text-center uppercase">
+					<h1 className="text-white text-3xl font-semibold text-center uppercase">
 						Sign in
 					</h1>
 					<form onSubmit={handleLogin} className="mt-6">
 						<div className="mb-2">
-							<label className="block text-sm font-semibold">Email</label>
+							<label className="text-white block text-sm font-semibold">
+								Email
+							</label>
 							<input
 								name="email"
 								type="email"
@@ -84,7 +86,9 @@ const Login = () => {
 							/>
 						</div>
 						<div className="mb-2">
-							<label className="block text-sm font-semibold ">Password</label>
+							<label className="text-white block text-sm font-semibold ">
+								Password
+							</label>
 							<input
 								name="password"
 								type="password"
@@ -93,9 +97,11 @@ const Login = () => {
 								required
 							/>
 						</div>
-						<Link className="text-xs hover:underline">Forget Password?</Link>
+						<Link className="text-cyan-500 text-xs hover:underline">
+							Forget Password?
+						</Link>
 						<div className="mt-6">
-							<button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-amber-500 rounded-md hover:bg-amber-600 focus:outline-none">
+							<button className=" w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-cyan-500 rounded-md hover:bg-cyan-600 focus:outline-none">
 								Login
 							</button>
 						</div>
@@ -107,7 +113,7 @@ const Login = () => {
 						<button
 							onClick={handleGoogle}
 							type="button"
-							className="flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-blue-400"
+							className="text-cyan-500 flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-blue-400"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +125,7 @@ const Login = () => {
 						</button>
 						<button
 							onClick={handleGithub}
-							className="flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-blue-400"
+							className="text-cyan-500 flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-blue-400"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -130,11 +136,11 @@ const Login = () => {
 							</svg>
 						</button>
 					</div>
-					<p className="mt-8 text-sm font-light text-center">
+					<p className="text-white mt-8 text-sm font-light text-center">
 						Don't have an account?{" "}
 						<Link
 							to="/register"
-							className="font-medium text-yellow-200  hover:underline"
+							className="font-medium text-cyan-400 hover:underline"
 						>
 							Sign up
 						</Link>

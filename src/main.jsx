@@ -11,10 +11,13 @@ import MyCollege from "./Components/MyCollege/MyCollege";
 import Admission from "./Components/Admission/Admission";
 import CollegeDetails from "./Components/College/CollegeDetails";
 import AuthProvider from "./Components/Provider/AuthProvider";
+import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
+import Error from "./Components/Error/Error";
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <App></App>,
+		errorElement: <Error></Error>,
 		children: [
 			{
 				path: "/",
@@ -36,7 +39,11 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/mycollege",
-				element: <MyCollege></MyCollege>,
+				element: (
+					<PrivateRoute>
+						<MyCollege></MyCollege>
+					</PrivateRoute>
+				),
 			},
 			{
 				path: "/admission",

@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB1Qu7fblwLSPMipI1CJ1_utuyuFdfoTfI",
-    authDomain: "campusconvenience-a6a5b.firebaseapp.com",
-    projectId: "campusconvenience-a6a5b",
-    storageBucket: "campusconvenience-a6a5b.appspot.com",
-    messagingSenderId: "383071533777",
-    appId: "1:383071533777:web:03db9221e6286fa1de63f0"
+    apiKey: import.meta.env.VITE_apiKey,
+    authDomain: import.meta.env.VITE_authDomain,
+    projectId: import.meta.env.VITE_projectId,
+    storageBucket: import.meta.env.VITE_storageBucket,
+    messagingSenderId: import.meta.env.VITE_messagingSenderId,
+    appId: import.meta.env.VITE_appId,
 };
 
 export const app = initializeApp(firebaseConfig);

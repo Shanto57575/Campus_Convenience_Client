@@ -10,6 +10,7 @@ import College from "./Components/College/College";
 import MyCollege from "./Components/MyCollege/MyCollege";
 import Admission from "./Components/Admission/Admission";
 import CollegeDetails from "./Components/College/CollegeDetails";
+import AuthProvider from "./Components/Provider/AuthProvider";
 const router = createBrowserRouter([
 	{
 		path: "/",
@@ -55,6 +56,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<AuthProvider>
+			<RouterProvider router={router} />
+		</AuthProvider>
 	</React.StrictMode>
 );

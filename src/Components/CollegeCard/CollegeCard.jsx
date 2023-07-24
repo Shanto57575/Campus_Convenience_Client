@@ -21,20 +21,20 @@ const CollegeCard = () => {
 									{item.collegeName} university
 								</h2>
 								<p>
-									<span className="text-lg font-semibold">Admission: </span>{" "}
+									<span className="text-lg font-semibold">Admission: </span>
 									{item.admissionDates[0]} - {item.admissionDates[1]}
 								</p>
 								<div>
 									<h1 className="text-lg font-bold underline">Events: </h1>
-									<span className="text-lg font-medium mr-4">
-										{item.events[0]},
-									</span>
-									<span className="text-lg font-medium mr-4">
-										{item.events[1]},
-									</span>
-									<span className="text-lg font-medium mr-4">
-										{item.events[2]}
-									</span>
+									<p className="text-lg font-medium mr-4">
+										1) {item.events[0]}
+									</p>
+									<p className="text-lg font-medium mr-4">
+										2) {item.events[1]}
+									</p>
+									<p className="text-lg font-medium mr-4">
+										3) {item.events[2]}
+									</p>
 								</div>
 								<div>
 									<h1 className="text-lg font-bold underline">Sports: </h1>
@@ -53,10 +53,10 @@ const CollegeCard = () => {
 										ResearchHistory:
 									</h1>
 									<p className="text-lg">
-										{item.researchHistory}
-										<span className="btn-link no-underline cursor-pointer">
-											...Read More
-										</span>
+										{item.researchHistory}...
+										<a className="btn-link" href="#">
+											Read More
+										</a>
 									</p>
 								</div>
 								<div className="card-actions">

@@ -17,13 +17,13 @@ const Banner = () => {
 					</p>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Admission
 					</button>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Read More
 					</button>
@@ -45,8 +45,8 @@ const Banner = () => {
 				/>
 				<div className="text-center absolute top-1/3 lg:mx-60 text-white space-y-5 font-serif">
 					<h1 className="lg:text-5xl">
-						Welcome To
-						<span className="text-cyan-500 font-semibold"> University</span>
+						EDUCATION
+						<span className="text-cyan-500 font-semibold"> MASTER</span>
 					</h1>
 					<p className="lg:text-2xl font-semibold">
 						Unlock Your Potential: Where Knowledge Meets Inspiration - Embrace
@@ -54,13 +54,13 @@ const Banner = () => {
 					</p>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Admission
 					</button>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Read More
 					</button>
@@ -79,24 +79,24 @@ const Banner = () => {
 					src="https://media.istockphoto.com/id/143071446/photo/student-working-in-library-at-night.jpg?s=612x612&w=0&k=20&c=o46eCyJIm9DkkwzWwOjsVGKVzkf4FF4QHiLaeNwzfmI="
 					className="w-full md:h-[500px] brightness-50"
 				/>
-				<div className="text-center absolute top-1/3 lg:mx-60 text-white space-y-5 font-serif">
-					<h1 className="lg:text-5xl">
-						Welcome To
-						<span className="text-cyan-500 font-semibold"> University</span>
+				<div className="text-center absolute top-1/3 lg:mx-60 text-white space-y-5">
+					<h1 className="lg:text-5xl font-serif">
+						ADMISSION OPEN
+						<span className="text-cyan-500 text-7xl"> 2023</span>
 					</h1>
-					<p className="lg:text-2xl font-semibold">
+					<p className="lg:text-2xl font-semibold font-serif">
 						Unlock Your Potential: Where Knowledge Meets Inspiration - Embrace
 						the Future Today!
 					</p>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Admission
 					</button>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Read More
 					</button>
@@ -126,13 +126,13 @@ const Banner = () => {
 					</p>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Admission
 					</button>
 					<button
 						type="button"
-						className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
 					>
 						Read More
 					</button>

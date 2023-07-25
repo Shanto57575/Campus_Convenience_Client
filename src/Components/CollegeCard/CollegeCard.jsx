@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Roll, Rotate, Slide, Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 const CollegeCard = () => {
 	const [data, setData] = useState([]);
 

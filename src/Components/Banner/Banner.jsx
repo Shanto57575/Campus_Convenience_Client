@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Link as NLink } from "react-scroll";
+
 const Banner = () => {
 	return (
 		<div className="carousel w-full">
@@ -15,18 +18,24 @@ const Banner = () => {
 						Unlock Your Potential: Where Knowledge Meets Inspiration - Embrace
 						the Future Today!
 					</p>
-					<button
-						type="button"
-						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
-					>
-						Admission
-					</button>
-					<button
-						type="button"
-						className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
-					>
-						Read More
-					</button>
+					<div>
+						<Link to="/admission">
+							<button
+								type="button"
+								className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+							>
+								Admission
+							</button>
+						</Link>
+						<NLink to="research" smooth={true} duration={500}>
+							<button
+								type="button"
+								className="hidden md:inline-block text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br border-2 font-medium text-sm px-7 py-3 text-center mr-2 mb-2"
+							>
+								Research
+							</button>
+						</NLink>
+					</div>
 				</div>
 				<div className="absolute flex justify-between right-5 gap-5 bottom-0 mb-2">
 					<a

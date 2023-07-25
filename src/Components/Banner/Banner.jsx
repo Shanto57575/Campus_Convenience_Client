@@ -31,13 +31,13 @@ const Banner = () => {
 				<div className="absolute flex justify-between right-5 gap-5 bottom-0 mb-2">
 					<a
 						href="#slide4"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❮
 					</a>
 					<a
 						href="#slide2"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❯
 					</a>
@@ -73,13 +73,13 @@ const Banner = () => {
 				<div className="absolute flex justify-between right-5 gap-5 bottom-0 mb-2">
 					<a
 						href="#slide1"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❮
 					</a>
 					<a
 						href="#slide3"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❯
 					</a>
@@ -115,13 +115,13 @@ const Banner = () => {
 				<div className="absolute flex justify-between right-5 gap-5 bottom-0 mb-2">
 					<a
 						href="#slide2"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❮
 					</a>
 					<a
 						href="#slide4"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❯
 					</a>
@@ -157,13 +157,13 @@ const Banner = () => {
 				<div className="absolute flex justify-between right-5 gap-5 bottom-0 mb-2">
 					<a
 						href="#slide3"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❮
 					</a>
 					<a
 						href="#slide1"
-						className="btn btn-circle bg-transparent text-white"
+						className="btn btn-circle bg-transparent text-white hover:bg-cyan-600"
 					>
 						❯
 					</a>

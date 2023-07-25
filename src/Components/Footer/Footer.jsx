@@ -1,9 +1,9 @@
 const Footer = () => {
 	return (
-		<footer className="footer lg:flex items-center rounded-lg justify-around p-7 bg-neutral text-white bg-gradient-to-r from-cyan-500 via-cyan-700 to-cyan-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">
+		<footer className="footer lg:flex items-center justify-around p-7 bg-neutral text-white bg-gradient-to-r from-cyan-500 via-cyan-700 to-cyan-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">
 			<div>
 				<h3 className="flex items-center">
-					<p className="font-bold lg:text-4xl">CampusConcierge</p>
+					<p className="font-bold lg:text-4xl">CampusWay</p>
 				</h3>{" "}
 				<p>Providing reliable Information since 1997</p>
 				<p className="font-extrabold">

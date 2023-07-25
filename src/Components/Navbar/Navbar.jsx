@@ -29,7 +29,7 @@ const Navbar = () => {
 	);
 
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar p-3">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -55,22 +55,19 @@ const Navbar = () => {
 						{NavItems}
 					</ul>
 				</div>
-				<a className="normal-case flex items-center">
+				<a className="normal-case flex items-center md:ml-10">
 					<FontAwesomeIcon
-						className="text-cyan-600 text-xl md:text-5xl"
+						className="text-cyan-600 text-xl md:text-4xl"
 						icon={faBookOpenReader}
-					/>{" "}
+					/>
 					<p className="text-black font-serif font-semibold ml-2 text-xl md:text-3xl">
-						Campus<span className="text-cyan-600">Concierge</span>
+						Campus<span className="text-cyan-600">Way</span>
 					</p>
 				</a>
 			</div>
-			<div className="navbar-center hidden lg:flex">
-				<ul className="menu menu-horizontal px-1">{NavItems}</ul>
+			<div className="navbar-end hidden lg:flex">
+				<ul className="menu menu-horizontal">{NavItems}</ul>
 			</div>
-			{/* <div className="navbar-end">
-				<a className="btn">Button</a>
-			</div> */}
 		</div>
 	);
 };

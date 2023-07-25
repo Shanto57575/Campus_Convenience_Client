@@ -1,7 +1,19 @@
+import { useContext } from "react";
 import { FaFacebook, FaGoogle, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Header = () => {
+	const { user, logOut } = useContext(AuthContext);
+
+	const handleLogout = () => {
+		logOut()
+			.then(() => {})
+			.catch(() => {
+				console.log("Out");
+			});
+	};
+
 	return (
 		<div className="bg-cyan-600 text-center md:flex md:gap-5 font-serif px-2 text-white py-2">
 			<div className="w-full lg:w-2/3 font-semibold">
@@ -32,7 +44,18 @@ const Header = () => {
 				>
 					<FaTwitter className="cursor-pointer" /> ||
 				</a>
-				<Link to="/login">Sign In</Link> |<Link to="/register">Sign Up</Link>
+				<Link to="/register">Sign Up</Link> |
+				<p>
+					{user ? (
+						<p className="cursor-pointer text-sm" onClick={handleLogout}>
+							Sign Out
+						</p>
+					) : (
+						<Link to="/login">
+							<p>Sign In</p>
+						</Link>
+					)}
+				</p>
 			</div>
 		</div>
 	);
